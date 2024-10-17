@@ -10,9 +10,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 120px;
 }
-
-
 
 /* ---------- NAVIGATION --------- */
 
@@ -95,9 +95,6 @@ nav ul li a {
     text-align: center;
 }
 
-
-
-
 #hero_right{
     display: flex;
     flex-direction: column;
@@ -111,5 +108,51 @@ nav ul li a {
     
 }
 
+/* ---------- SERVICES SECTION --------- */
 
+#services_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.txt_centered{
+    text-align: center;
+    max-width: 1000px;
+}
+
+
+.row-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.services{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    max-width: 200px;
+    background-color: #F8F8F8;
+    padding-top: 16px;
+}
+
+h4{
+    margin: 16px 0;
+    font-size: 20px;
+}
+
+.services_description{
+    margin: 0;
+
+}
 
